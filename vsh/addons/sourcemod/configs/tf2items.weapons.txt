@@ -1,0 +1,599 @@
+"custom_weapons_v3"
+{
+	"*"
+	{
+		//soldier
+		"18"	//normal rocket
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.8"			//damage bonus 80%
+			"2"							"207 ; 1.6"			//self blast damage increased by 60%
+			"3"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"205"	//strange rocket launcher
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.8"			//damage bonus 80%
+			"2"							"207 ; 1.6"			//self blast damage increased by 60%
+			"3"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"513"	//the original
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.8"			//damage bonus 80%
+			"2"							"207 ; 1.6"			//self blast damage increased by 60%
+			"3"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"658"	//festive rocket launcher
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.8"			//damage bonus 80%
+			"2"							"207 ; 1.6"			//self blast damage increased by 60%
+			"3"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"127"	//direct hit
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 2.25"			//damage bonus 125%
+			"2"							"207 ; 1.6"			//self blast damage increased by 60%
+			"3"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"129"	//buff banner
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"319 ; 2.25"		//increased buff duration
+		}
+		"226"	//Battalion's Backup
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"319 ; 1.5"			//increased buff duration
+		}
+		"228"	//black box
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.8"			//damage bonus 80%
+			"2"							"207 ; 1.6"			//self blast damage increased by 60%
+			"3"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"354"	//The Concheror
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"319 ; 1.5"			//increased buff duration
+		}
+		"414"	//liberty launcher
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.25"			//damage bonus 25%
+			"2"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"441"	//cow mangler
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.8"			//damage bonus 80%
+			"2"							"207 ; 1.6"			//self blast damage increased by 60%
+			"3"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"730"	//beggar's bazooka
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.8"			//damage bonus 80%
+			"2"							"207 ; 1.6"			//self blast damage increased by 60%
+			"3"							"97 ; 0.6"			//faster reload speed by 40%
+		}
+		"444"	//mantreads
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"58 ; 5.5"			//self dmg push force increased by 450%
+			"2"							"275 ; 1"			//cancel falling damage
+		}
+		"133"	//gunboats
+		{
+			"1"
+
+			"1"							"58 ; 4.5"			//self dmg push force increased by 350%
+			"2"							"275 ; 1"			//cancel falling damage
+		}
+
+		//engineer
+		"142"	//gunslinger
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"343 ; 0.75"		//increased sentry fire rate by 25%
+			"2"							"26 ; 225"			//increased 225 health
+		}
+		"588"	//pomson 6000
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"97 ; 0.7"			//decreased reload time by 30%
+			"2"							"6 ; 0.7"			//increased firing speed by 30%
+		}
+		"527"	//widowmaker
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 2.5"			//increased damage by 150%
+			"2"							"5 ; 1.8"			//decreased fire rate by 80%
+		}
+
+		//scout
+		"13"	//stock scout scattergun
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"149 ; 8"			//bleeding for 8 seconds
+			"2"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"200"	//strange scout scattergun
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"149 ; 8"			//bleeding for 8 seconds
+			"2"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"669"	//festive scout scattergun
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"149 ; 8"			//bleeding for 8 seconds
+			"2"							"97 ; 0.8"			//faster reload speed by 20%
+		}
+		"45"	//force-a-nature
+		{
+			"1"							"6 ; 0.3"			//faster firing speed by 70%
+			"2"							"3 ; 0.34" 			//clip size penalty
+			"3"							"43 ; 1"			//scattergun single reload
+			"4"							"44 ; 1"			//scattergun knockback
+			"5"							"45 ; 1.8"			// 80% bullets per shot bonus
+		}
+		"1078"	//festive force a nature
+		{
+			"1"							"6 ; 0.3"			//faster firing speed by 70%
+			"2"							"3 ; 0.34" 			//clip size penalty
+			"3"							"43 ; 1"			//scattergun single reload
+			"4"							"44 ; 1"			//scattergun knockback
+			"5"							"45 ; 1.8"			// 80% bullets per shot bonus
+		}
+		"220"	//shortstop
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.25"			//more damage by 25%
+			"2"							"6 ; 0.7"			//faster firing speed by 30%
+			"3"							"97 ; 0.6"			//faster reload speed by 40%
+		}
+		"772"	//baby face blaster
+		{
+			"1"							"1 ; 0.50"			//damage penalty 50%
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.5"			//faster firing speed by 50%
+			"4"							"97 ; 0.6"			//faster reload speed by 40%
+			"5"							"107 ; 1.2"			//faster move speed on wearer by 20%
+		}
+		"1103"	//The backscatter
+		{		
+			"1"							"2 ; 1.75"			//increase damage by 75%
+			"2"							"96 ; 2.6"			//slower reload time by 160%
+			"3"							"54 ; 0.75"			//move speed decrease 25%
+			"4"							"45 ; 4.5"			//450% bullets per shot bonus
+			"5"							"49 ; 1"			//no double jump
+			"6"							"36; 2.8" 			//180% more spread, spread penalty
+			"7"							"6 ; 0.2"			//faster firing speed by 80%
+			"8"							"3 ; 0.34" 			//clip size penalty
+			//"6"							"77; 0.05"		//lesser ammo
+			//"6"							"619; 1"		//closerange backattack minicrits
+		}
+
+		//demoman
+		"132"	//The Eyelander
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 2"				//damage bonus 100%
+			"2"							"6 ; 0.75"			//faster firing speed by 25%
+		}
+		"266" //The Horseless Headless Horseman's Headtaker
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 2"				//damage bonus 100%
+			"2"							"6 ; 0.75"			//faster firing speed by 25%
+		}
+		"1082"	//Festive Eyelander
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 2"				//damage bonus 100%
+			"2"							"6 ; 0.75"			//faster firing speed by 25%
+		}
+		"482"	//Nessie's Nine Iron
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 2"				//damage bonus 100%
+			"2"							"6 ; 0.75"			//faster firing speed by 25%
+		}
+		"307"	//Ullapool Caber
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 4.5"			//damage bonus 350%
+			"2"							"207 ; 2.5"			//self blast damage increased by 150%
+		}
+		"308"	//loch n load
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.8"			//increase damage by 80%
+		}
+		"996"	//loose cannon
+		{
+			"1"							"1 ; 0.6"			//lesser damage by 40%
+			"2"							"6 ; 0.2"			//faster firing speed by 80%
+			"3"							"97 ; 0.8"			//faster reload speed by 20%
+			"4"							"280 ; 17"			//projectile type
+			"5"							"413 ; 1"			//auto fire on release
+			//"6"							"467 ; 1"		//grenade do not explode on impact
+			"6"							"477 ; 1"			//grenade knockback
+			"7"							"37; 1.8"			//max ammo increased by 80%
+		}
+		"1151"	//Iron bomber
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.6"			//increase damage by60%
+			"2"							"96 ; 1.8"			//slower reload time by 80%
+		}
+		"20"	//sticky launcher
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.5"			//increase damage by 50%
+		}
+		"207"	//strange sticky launcher
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.5"			//increase damage by 50%
+		}
+		"661"	//festive sticky launcher
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.5"			//increase damage by 50%
+		}
+		"130"	//scottish resistance
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.8"			//increase damage by 80%
+		}
+		"1150"	//quickie sticky launcher
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"6 ; 0.4"			//faster firing speed by 60%
+			"2"							"97 ; 0.6"			//faster reload speed by 40%
+		}
+
+		//heavy
+		"312"	//brass beast
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.4"			//increase damage by 40%
+			"2"							"26 ; 200"			//max health increased by 200
+			"3"							"86 ; 4.2"			//increased spin up time
+		}
+		"331"	//fists of steel
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"26 ; 200"			//max health increased by 200
+			"2"							"57 ; 5"			//health regen per second
+			"3"							"54 ; 0.75"			//25% slower move speed
+		}
+
+		// medic
+		"305"	// crusader's crossbow
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 2.5"			//150% increased damage
+			"2"							"17 ; 0.2"			//add 20% uber on hit
+		}
+		"29"	//medi gun
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"10 ; 2.25"			//125% increased uber charge rate
+			"2"							"8 ; 1.5"			//50% increased heal rate
+			"3"							"11 ; 1.75"			//75% increased overheal bonus
+		}
+		"663"	//festive medi gun
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"10 ; 2.25"			//125% increased uber charge rate
+			"2"							"8 ; 1.5"			//50% increased heal rate
+			"3"							"11 ; 1.75"			//75% increased overheal bonus
+		}
+		"35"	//kritzkrieg
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"10 ; 3.0"			//200% increased uber charge rate
+			"2"							"8 ; 1.5"			//50% increased heal rate
+			"3"							"11 ; 1.75"			//75% increased overheal bonus
+			"4"							"26 ; 250"			//250 increased health points
+		}
+		"411"	//quickfix
+		{
+			"1"							"231 ; 1"			//medigun charge is megaheal
+			"2"							"8 ; 2.5"			//150% increased heal rate
+			"3"							"10 ; 3.5"			//250% increased uber charge rate
+		}
+		"304"	//amputator
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		
+		//sniper
+		"56"	//the huntsman
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.5"			//increase damage by 50%
+			"2"							"6 ; 0.8"			//faster firing speed by 20%
+		}
+		"1005"	//festive huntsman
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.5"			//increase damage by 50%
+			"2"							"6 ; 0.8"			//faster firing speed by 20%
+		}
+		"1092"	//fortified compound
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.5"			//increase damage by 50%
+			"2"							"6 ; 0.8"			//faster firing speed by 20%
+		}
+		"753"	//hitman's heatmaker
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"6 ; 0.6"			//faster firing speed by 40%
+		}
+		"14"	//sniper rifle
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"390 ; 7.0"			//headshots deal increased 600% damage
+			"2"							"392 ; 0.25"		//decreased damage by 75% on bodyshot
+		}
+		"664"	//festive sniper rifle
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"390 ; 7.0"			//headshots deal increased 600% damage
+			"2"							"392 ; 0.25"		//decreased damage by 75% on bodyshot
+		}
+		"526"	//machina
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.7"			//increase damage by 70%
+			"2"							"5 ; 1.5"			//slower firing speed by 50%
+		}
+		"30665"	//shooting star
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.7"			//increase damage by 70%
+			"2"							"5 ; 1.5"			//slower firing speed by 50%
+		}
+		"1098"	//Classic
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.35"			//increase damage by 35%
+		}
+		"231"	//Darwin's danger shield
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"26 ; 175"			//max health increased by 175
+		}
+		"642"	//Cozy camper
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"26 ; 125"			//max health increased by 125
+		}
+
+		//spy
+
+		"61"	//ambassador
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"390 ; 1.8"			//headshots deal increased 80% damage
+		}
+		"1006"	//festive ambassador
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"390 ; 1.8"			//headshots deal increased 80% damage
+		}
+		"4"	//default knife
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		"194"	//strange knife
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		"225" //your eternal reward
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		"356"	//Conniver's Kunai
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		"461"	//the big earner
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		"574"	//The Wanga Prick
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		"638"	//The Sharp Dresser
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		"649"	//spycicle
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		"665"	//festive knife
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		"727"	//the black rose
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"326 ; 1.3"			//increased 30% jump height
+			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
+			"3"							"6 ; 0.7"			//faster firing speed by 30%
+		}
+		
+		//pyro
+		"40"	//backburner
+		{
+			"1"							"2 ; 3.5"			//increase damage by 250%
+			"2"							"71 ; 2.5"			//more after burn damage
+			"3"							"170 ; 2.5"			//airblast cost increased
+			"4"							"129 ; -10"			//10 health drain per second
+			"5"							"236; 1"			//block healing
+			//"6"							"20 ; 1"		//crit vs burning players
+		}
+		"1146"	//festive backburner
+		{
+			"1"							"2 ; 3.5"			//increase damage by 250%
+			"2"							"71 ; 2.5"			//more after burn damage
+			"3"							"170 ; 2.5"			//airblast cost increased
+			"4"							"129 ; -10"			//10 health drain per second
+			"5"							"236; 1"			//block healing
+			//"6"							"20 ; 1"		//crit vs burning players
+		}
+		"594"	//Phlogistinator
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.4"			//increase damage by 40%
+			"2"							"26 ; 125"			//max health increased by 125
+			"3"							"54 ; 0.85"			//15% slower move speed
+		}
+		//Flaregun, Detonator, Festive Flaregun
+		"39"
+		{
+			"1"							"25 ; 0.5"			//hidden secondary max ammo penalty
+			"2"							"207 ; 1.33"		//blast dmg to self increased
+			"3"							"144 ; 1.0 "		//lunchbox adds minicrits
+			"4"							"58 ; 4.5"			// self dmg push force increased
+		}
+		"351"
+		{
+			"1"							"25 ; 0.5"
+			"2"							"207 ; 1.33"
+			"3"							"144 ; 1.0 "
+			"4"							"58 ; 4.5"
+		}
+		"1081"
+		{
+			"1"							"25 ; 0.5"
+			"2"							"207 ; 1.33"
+			"3"							"144 ; 1.0 "
+			"4"							"58 ; 4.5"
+		}
+		"880"	//Freedom staff
+		{
+			"1"							"2 ; 1.2"			//increase damage by 20%
+			"2"							"6 ; 0.65"			//faster firing speed by 35%
+		}
+		"593"	//Third Degree
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.35"			//increase damage by 35%
+		}
+		"1013"	//Ham Shank
+		{
+			"1"							"2 ; 1.25"			//increase damage by 25%
+			"2"							"16 ; 50"			//heal 50 hp on hit
+		}
+		"593"	//Backscratcher
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.85"			//increase damage by 85%
+		}
+	}
+}
