@@ -110,17 +110,17 @@
 		//engineer
 		"142"	//gunslinger
 		{
-			"preserve_attributes"		"1"
-
 			"1"							"343 ; 0.75"		//increased sentry fire rate by 25%
-			"2"							"26 ; 225"			//increased 225 health
+			"2"							"286 ; 2.0"			//increased building health by 100%
+			"3"							"464 ; 3.5"			//increased sentry build rate by 250%
+			"4"							"26 ; 225"			//increased 225 health
 		}
 		"588"	//pomson 6000
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"97 ; 0.7"			//decreased reload time by 30%
-			"2"							"6 ; 0.7"			//increased firing speed by 30%
+			"1"							"97 ; 0.6"			//decreased reload time by 40%
+			"2"							"6 ; 0.5"			//increased firing speed by 50%
 		}
 		"527"	//widowmaker
 		{
