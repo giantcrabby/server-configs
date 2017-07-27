@@ -399,7 +399,7 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"6 ; 0.6"			//faster firing speed by 40%
+			"1"							"90 ; 0.6"			//faster charge rate by 40%
 		}
 		"14"	//sniper rifle
 		{
@@ -420,14 +420,14 @@
 			"preserve_attributes"		"1"
 
 			"1"							"2 ; 1.7"			//increase damage by 70%
-			"2"							"5 ; 1.5"			//slower firing speed by 50%
+			"2"							"91 ; 1.5"			//slower charge rate by 50%
 		}
 		"30665"	//shooting star
 		{
 			"preserve_attributes"		"1"
 
 			"1"							"2 ; 1.7"			//increase damage by 70%
-			"2"							"5 ; 1.5"			//slower firing speed by 50%
+			"2"							"91 ; 1.5"			//slower charge rate by 50%
 		}
 		"1098"	//Classic
 		{
