@@ -110,9 +110,11 @@
 		//engineer
 		"142"	//gunslinger
 		{
+			"preserve_attributes"		"1"
+
 			"1"							"343 ; 0.75"		//increased sentry fire rate by 25%
 			"2"							"286 ; 2.0"			//increased building health by 100%
-			"3"							"464 ; 3.5"			//increased sentry build rate by 250%
+			"3"							"464 ; 3.75"		//increased sentry build rate by 275%
 			"4"							"26 ; 225"			//increased 225 health
 		}
 		"588"	//pomson 6000
