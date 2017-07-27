@@ -291,13 +291,32 @@
 		}
 
 		//heavy
+		"15"	//minigun
+		{
+			"1"							"45 ; 1.8"			//80% more bullets per shot
+			"2"							"76 ; 2.0"			//100% increased maxammo primary
+		}
+		"654"	//festive minigun
+		{
+			"1"							"45 ; 1.8"			//80% more bullets per shot
+			"2"							"76 ; 2.0"			//100% increased maxammo primary
+		}
 		"312"	//brass beast
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 1.4"			//increase damage by 40%
+			"1"							"2 ; 1.45"			//increase damage by 45%
 			"2"							"26 ; 200"			//max health increased by 200
 			"3"							"86 ; 4.2"			//increased spin up time
+			"4"							"45 ; 1.4"			//40% more bullets per shot
+			"5"							"54 ; 0.85"			//15% slower move speed
+		}
+		"424"	//tomislave
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"106 ; 1.6"			//60% more accurate
+			"2"							"76 ; 1.5"			//50% increased maxammo primary
 		}
 		"331"	//fists of steel
 		{
