@@ -419,14 +419,14 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 1.7"			//increase damage by 70%
+			"1"							"304 ; 2.25"		//125% full charge damage bonus
 			"2"							"91 ; 1.5"			//slower charge rate by 50%
 		}
 		"30665"	//shooting star
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 1.7"			//increase damage by 70%
+			"1"							"304 ; 2.25"		//125% full charge damage bonus
 			"2"							"91 ; 1.5"			//slower charge rate by 50%
 		}
 		"1098"	//Classic
