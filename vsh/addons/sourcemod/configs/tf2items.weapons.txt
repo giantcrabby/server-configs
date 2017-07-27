@@ -249,6 +249,22 @@
 			//"6"							"77; 0.05"		//lesser ammo
 			//"6"							"619; 1"		//closerange backattack minicrits
 		}
+		"449"	//Winger
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 2.5"			//increase damage by 150%
+			"2"							"3 ; 0.09" 			//clip size penalty
+			"3"							"96 ; 1.35"			//slower reload time by 35%
+		}
+		"773"	//pretty boy's pocket pistol
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.5"			//increase damage by 50%
+			"2"							"97 ; 0.4"			//faster reload speed by 60%
+			"3"							"54 ; 0.92"			//move speed decrease 8%
+		}
 
 		//demoman
 		"132"	//The Eyelander
@@ -262,7 +278,7 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 2.8"				//damage bonus 180%
+			"1"							"2 ; 2.8"			//damage bonus 180%
 			"2"							"6 ; 0.75"			//faster firing speed by 25%
 		}
 		"266"	//The Horseless Headless Horseman's Headtaker
