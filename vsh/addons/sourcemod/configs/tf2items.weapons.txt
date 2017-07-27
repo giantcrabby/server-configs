@@ -208,7 +208,14 @@
 			"1"							"2 ; 2"				//damage bonus 100%
 			"2"							"6 ; 0.75"			//faster firing speed by 25%
 		}
-		"266" //The Horseless Headless Horseman's Headtaker
+		"172"	//scotman's skullcutter
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 2.8"				//damage bonus 180%
+			"2"							"6 ; 0.75"			//faster firing speed by 25%
+		}
+		"266"	//The Horseless Headless Horseman's Headtaker
 		{
 			"preserve_attributes"		"1"
 
@@ -236,15 +243,27 @@
 			"1"							"2 ; 4.5"			//damage bonus 350%
 			"2"							"207 ; 2.5"			//self blast damage increased by 150%
 		}
+		"19"	//stock grenade launcher
+		{
+			"1"							"2 ; 1.4"			//damage bonus 40%
+		}
+		"206"	//strange grenade launcher
+		{
+			"1"							"2 ; 1.4"			//damage bonus 40%
+		}
+		"1007"	//festive grenade launcher
+		{
+			"1"							"2 ; 1.4"			//damage bonus 40%
+		}
 		"308"	//loch n load
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 1.8"			//increase damage by 80%
+			"1"							"2 ; 2.25"			//increase damage by 125%
 		}
 		"996"	//loose cannon
 		{
-			"1"							"1 ; 0.6"			//lesser damage by 40%
+			"1"							"2 ; 1.2"			//increase damage by 20%
 			"2"							"6 ; 0.2"			//faster firing speed by 80%
 			"3"							"97 ; 0.8"			//faster reload speed by 20%
 			"4"							"280 ; 17"			//projectile type
@@ -257,7 +276,7 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 1.6"			//increase damage by60%
+			"1"							"2 ; 1.6"			//increase damage by 60%
 			"2"							"96 ; 1.8"			//slower reload time by 80%
 		}
 		"20"	//sticky launcher
