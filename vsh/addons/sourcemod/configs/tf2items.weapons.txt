@@ -326,8 +326,10 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 1.6"			//increase damage by 60%
-			"2"							"96 ; 1.8"			//slower reload time by 80%
+			"1"							"2 ; 1.75"			//increase damage by 75%
+			"2"							"96 ; 2.25"			//slower reload time by 125%
+			"3"							"6 ; 0.5"			//faster firing speed by 50%
+			"4"							"37; 2.25"			//max ammo increased by 125%
 		}
 		"20"	//sticky launcher
 		{
