@@ -131,6 +131,56 @@
 			"1"							"2 ; 2.5"			//increased damage by 150%
 			"2"							"5 ; 1.8"			//decreased fire rate by 80%
 		}
+		"7"		//stock wrench
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"287 ; 1.5"			//increased sentry damage by 50%
+			"2"							"344 ; 1.75"		//increased sentry radius by 75%
+		}
+		"169"	//golden wrench
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"287 ; 1.5"			//increased sentry damage by 50%
+			"2"							"344 ; 1.75"		//increased sentry radius by 75%
+		}
+		"197"	//strange wrench
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"287 ; 1.5"			//increased sentry damage by 50%
+			"2"							"344 ; 1.75"		//increased sentry radius by 75%
+		}
+		"662"	//festive wrench
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"287 ; 1.5"			//increased sentry damage by 50%
+			"2"							"344 ; 1.75"		//increased sentry radius by 75%
+		}
+		"155"	//southern hospitality
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"287 ; 1.5"			//increased sentry damage by 50%
+			"2"							"344 ; 1.75"		//increased sentry radius by 75%
+		}
+		"329"	//The Jag
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"287 ; 1.5"			//increased sentry damage by 50%
+			"2"							"344 ; 1.75"		//increased sentry radius by 75%
+			"3"							"286 ; 1.5"			//increased building health by 50%
+		}
+		"589"	//Eureka Effect
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"287 ; 1.5"			//increased sentry damage by 50%
+			"2"							"344 ; 1.75"		//increased sentry radius by 75%
+		}
 
 		//scout
 		"13"	//stock scout scattergun
