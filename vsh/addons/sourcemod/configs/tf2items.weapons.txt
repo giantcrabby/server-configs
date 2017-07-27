@@ -101,7 +101,7 @@
 		}
 		"133"	//gunboats
 		{
-			"1"
+			"preserve_attributes"		"1"
 
 			"1"							"58 ; 4.5"			//self dmg push force increased by 350%
 			"2"							"275 ; 1"			//cancel falling damage
