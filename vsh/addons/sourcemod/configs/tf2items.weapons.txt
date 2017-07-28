@@ -39,21 +39,22 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 2.25"			//damage bonus 125%
-			"2"							"207 ; 1.6"			//self blast damage increased by 60%
+			"1"							"2 ; 2.5"			//damage bonus 150%
+			"2"							"207 ; 1.8"			//self blast damage increased by 80%
 			"3"							"97 ; 0.8"			//faster reload speed by 20%
 		}
 		"129"	//buff banner
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"319 ; 2.25"		//increased buff duration
+			"1"							"319 ; 2.5"			//increased 150% buff duration
 		}
 		"226"	//Battalion's Backup
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"319 ; 1.5"			//increased buff duration
+			"1"							"319 ; 1.75"		//increased 75% buff duration
+			"2"							"26 ; 150"			//increased 150 health
 		}
 		"228"	//black box
 		{
@@ -67,7 +68,8 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"319 ; 1.5"			//increased buff duration
+			"1"							"319 ; 1.75"		//increased 75% buff duration
+			"2"							"26 ; 75"			//increased 75 health
 		}
 		"414"	//liberty launcher
 		{
@@ -91,6 +93,14 @@
 			"1"							"2 ; 1.8"			//damage bonus 80%
 			"2"							"207 ; 1.6"			//self blast damage increased by 60%
 			"3"							"97 ; 0.6"			//faster reload speed by 40%
+		}
+		"1104"	//airstrike
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"181 ; 1"			//no self blast damage
+			"2"							"97 ; 0.7"			//faster reload speed by 30%
+			"3"							"58 ; 3.5"			//self dmg push force increased by 250%
 		}
 		"444"	//mantreads
 		{
