@@ -430,7 +430,7 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"10 ; 2.25"			//125% increased uber charge rate
+			"1"							"10 ; 3.25"			//225% increased uber charge rate
 			"2"							"8 ; 1.5"			//50% increased heal rate
 			"3"							"11 ; 1.75"			//75% increased overheal bonus
 		}
@@ -438,7 +438,7 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"10 ; 2.25"			//125% increased uber charge rate
+			"1"							"10 ; 3.25"			//225% increased uber charge rate
 			"2"							"8 ; 1.5"			//50% increased heal rate
 			"3"							"11 ; 1.75"			//75% increased overheal bonus
 		}
@@ -446,16 +446,27 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"10 ; 3.0"			//200% increased uber charge rate
+			"1"							"10 ; 4.0"			//300% increased uber charge rate
 			"2"							"8 ; 1.5"			//50% increased heal rate
 			"3"							"11 ; 1.75"			//75% increased overheal bonus
 			"4"							"26 ; 250"			//250 increased health points
 		}
 		"411"	//quickfix
 		{
-			"1"							"231 ; 1"			//medigun charge is megaheal
-			"2"							"8 ; 2.5"			//150% increased heal rate
-			"3"							"10 ; 3.5"			//250% increased uber charge rate
+			"preserve_attributes"		"1"
+
+			"1"							"8 ; 2.5"			//150% increased heal rate
+			"2"							"10 ; 4.5"			//350% increased uber charge rate
+			"3"							"26 ; 150"			//150 increased health points
+		}
+		"998"	//vaccinator
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"8 ; 1.5"			//50% increased heal rate
+			"2"							"10 ; 5.0"			//400% increased uber charge rate
+			"3"							"11 ; 1.5"			//50% increased overheal bonus
+			"4"							"26 ; 100"			//100 increased health points
 		}
 		"304"	//amputator
 		{
