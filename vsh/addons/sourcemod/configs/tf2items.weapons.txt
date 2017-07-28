@@ -253,7 +253,7 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 2.5"			//increase damage by 150%
+			"1"							"2 ; 4.5"			//increase damage by 350%
 			"2"							"3 ; 0.09" 			//clip size penalty
 			"3"							"96 ; 1.35"			//slower reload time by 35%
 			"4"							"36 ; 1.5"			//spread penalty of 50%
