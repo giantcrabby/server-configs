@@ -214,6 +214,13 @@
 			"1"							"149 ; 8"			//bleeding for 8 seconds
 			"2"							"97 ; 0.8"			//faster reload speed by 20%
 		}
+		"15002 ; 15015 ; 15021 ; 15029 ; 15036 ; 15053 ; 15065 ; 15069 ; 15106 ; 15107 ; 15108 ; 15131 ; 15151 ; 15157"	//decorated scout scattergun
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"149 ; 8"			//bleeding for 8 seconds
+			"2"							"97 ; 0.8"			//faster reload speed by 20%
+		}
 		"45"	//force-a-nature
 		{
 			"1"							"6 ; 0.3"			//faster firing speed by 70%
