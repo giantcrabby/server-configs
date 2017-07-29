@@ -354,10 +354,10 @@
 			"preserve_attributes"		"1"
 
 			"1"							"2 ; 1.75"			//increase damage by 75%
-			"2"							"96 ; 2.25"			//slower reload time by 125%
+			"2"							"96 ; 1.75"			//slower reload time by 75%
 			"3"							"6 ; 0.5"			//faster firing speed by 50%
 			"4"							"37; 2.25"			//max ammo increased by 125%
-			"5"							"279 ; 2.5"			//maxammo grenades1 increased by 150%
+			"5"							"4 ; 2.5"			//clip size increased by 150%
 		}
 		"20"	//sticky launcher
 		{
