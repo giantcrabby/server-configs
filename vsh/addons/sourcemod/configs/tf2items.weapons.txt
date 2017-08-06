@@ -3,23 +3,7 @@
 	"*"
 	{
 		//soldier
-		"18"	//normal rocket
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"2 ; 1.8"			//damage bonus 80%
-			"2"							"207 ; 1.6"			//self blast damage increased by 60%
-			"3"							"97 ; 0.8"			//faster reload speed by 20%
-		}
-		"205"	//strange rocket launcher
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"2 ; 1.8"			//damage bonus 80%
-			"2"							"207 ; 1.6"			//self blast damage increased by 60%
-			"3"							"97 ; 0.8"			//faster reload speed by 20%
-		}
-		"513"	//the original
+		"18 ; 205 ; 513"	//stock rocket, strange, original
 		{
 			"preserve_attributes"		"1"
 
@@ -141,28 +125,7 @@
 			"1"							"2 ; 2.5"			//increased damage by 150%
 			"2"							"5 ; 1.8"			//decreased fire rate by 80%
 		}
-		"7"		//stock wrench
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"287 ; 1.5"			//increased sentry damage by 50%
-			"2"							"344 ; 1.75"		//increased sentry radius by 75%
-		}
-		"169"	//golden wrench
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"287 ; 1.5"			//increased sentry damage by 50%
-			"2"							"344 ; 1.75"		//increased sentry radius by 75%
-		}
-		"197"	//strange wrench
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"287 ; 1.5"			//increased sentry damage by 50%
-			"2"							"344 ; 1.75"		//increased sentry radius by 75%
-		}
-		"662"	//festive wrench
+		"7 ; 169 ; 197 ; 662"	//stock wrench, golden, strange, festive
 		{
 			"preserve_attributes"		"1"
 
@@ -285,7 +248,7 @@
 		}
 
 		//demoman
-		"132"	//The Eyelander
+		"132 ; 1082"	//The Eyelander, festive
 		{
 			"preserve_attributes"		"1"
 
@@ -306,13 +269,6 @@
 			"1"							"2 ; 2"				//damage bonus 100%
 			"2"							"6 ; 0.75"			//faster firing speed by 25%
 		}
-		"1082"	//Festive Eyelander
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"2 ; 2"				//damage bonus 100%
-			"2"							"6 ; 0.75"			//faster firing speed by 25%
-		}
 		"482"	//Nessie's Nine Iron
 		{
 			"preserve_attributes"		"1"
@@ -327,15 +283,7 @@
 			"1"							"2 ; 4.5"			//damage bonus 350%
 			"2"							"207 ; 2.5"			//self blast damage increased by 150%
 		}
-		"19"	//stock grenade launcher
-		{
-			"1"							"2 ; 1.4"			//damage bonus 40%
-		}
-		"206"	//strange grenade launcher
-		{
-			"1"							"2 ; 1.4"			//damage bonus 40%
-		}
-		"1007"	//festive grenade launcher
+		"19 ; 206 ; 1007"	//stock grenade launcher, strange, festive
 		{
 			"1"							"2 ; 1.4"			//damage bonus 40%
 		}
@@ -399,12 +347,7 @@
 		}
 
 		//heavy
-		"15"	//minigun
-		{
-			"1"							"45 ; 1.8"			//80% more bullets per shot
-			"2"							"76 ; 2.0"			//100% increased maxammo primary
-		}
-		"654"	//festive minigun
+		"15 ; 654"	//minigun, festive
 		{
 			"1"							"45 ; 1.8"			//80% more bullets per shot
 			"2"							"76 ; 2.0"			//100% increased maxammo primary
@@ -436,28 +379,21 @@
 		}
 
 		// medic
-		"305"	// crusader's crossbow
+		"305 ; 1079"	// crusader's crossbow, festive
 		{
 			"preserve_attributes"		"1"
 
 			"1"							"2 ; 2.5"			//150% increased damage
 			"2"							"17 ; 0.2"			//add 20% uber on hit
 		}
-		"29"	//medi gun
+		"29 ; 211 ; 663 ; 15008 ; 15010 ; 15025 ; 15039 ; 15050 ; 15078 ; 15097 ; 15120 ; 15121 ; 15122 ; 15145 ; 15146"	//medi gun, strange, festive, decorated
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"10 ; 3.25"			//225% increased uber charge rate
+			"1"							"10 ; 2.75"			//175% increased uber charge rate
 			"2"							"8 ; 1.5"			//50% increased heal rate
 			"3"							"11 ; 1.75"			//75% increased overheal bonus
-		}
-		"663"	//festive medi gun
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"10 ; 3.25"			//225% increased uber charge rate
-			"2"							"8 ; 1.5"			//50% increased heal rate
-			"3"							"11 ; 1.75"			//75% increased overheal bonus
+			"4"							"314 ; 8.0"			//8 seconds additional uber charge
 		}
 		"35"	//kritzkrieg
 		{
@@ -466,7 +402,8 @@
 			"1"							"10 ; 4.0"			//300% increased uber charge rate
 			"2"							"8 ; 1.5"			//50% increased heal rate
 			"3"							"11 ; 1.75"			//75% increased overheal bonus
-			"4"							"26 ; 250"			//250 increased health points
+			"4"							"314 ; 8.0"			//8 seconds additional uber charge
+			"5"							"26 ; 250"			//250 increased health points
 		}
 		"411"	//quickfix
 		{
@@ -475,6 +412,7 @@
 			"1"							"8 ; 2.5"			//150% increased heal rate
 			"2"							"10 ; 4.5"			//350% increased uber charge rate
 			"3"							"26 ; 150"			//150 increased health points
+			"4"							"314 ; 8.0"			//8 seconds additional uber charge
 		}
 		"998"	//vaccinator
 		{
@@ -483,7 +421,8 @@
 			"1"							"8 ; 1.5"			//50% increased heal rate
 			"2"							"10 ; 5.0"			//400% increased uber charge rate
 			"3"							"11 ; 1.5"			//50% increased overheal bonus
-			"4"							"26 ; 100"			//100 increased health points
+			"4"							"314 ; 8.0"			//8 seconds additional uber charge
+			"5"							"26 ; 100"			//100 increased health points
 		}
 		"304"	//amputator
 		{
@@ -568,28 +507,13 @@
 		}
 
 		//spy
-
-		"61"	//ambassador
+		"61 ; 1006"	//ambassador, festive
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"390 ; 1.8"			//headshots deal increased 80% damage
+			"1"							"390 ; 2.5"			//headshots deal increased 150% damage
 		}
-		"1006"	//festive ambassador
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"390 ; 1.8"			//headshots deal increased 80% damage
-		}
-		"4"	//default knife
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"326 ; 1.3"			//increased 30% jump height
-			"2"							"123 ; 1.3"			//increased 30% movespeed when deployed
-			"3"							"6 ; 0.7"			//faster firing speed by 30%
-		}
-		"194"	//strange knife
+		"4 ; 194"	//default knife, festive
 		{
 			"preserve_attributes"		"1"
 
@@ -663,6 +587,13 @@
 		}
 		
 		//pyro
+		"21 ; 208 ; 659 ; 741"	//flamethrower, strange flamethrower, festive flamethrower, rainblower
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"255 ; 2.5"			//increased 150% airblast pushback force
+			"2"							"257 ; 2.5"			//increased 150% airblast vertical pushback scale
+		}
 		"40"	//backburner
 		{
 			"1"							"2 ; 3.5"			//increase damage by 250%
@@ -690,31 +621,12 @@
 			"3"							"54 ; 0.85"			//15% slower move speed
 		}
 		//Flaregun, Detonator, Festive Flaregun
-		"39"
+		"39 ; 351 ; 1081"
 		{
 			"1"							"25 ; 0.5"			//hidden secondary max ammo penalty
 			"2"							"207 ; 1.33"		//blast dmg to self increased
 			"3"							"144 ; 1.0 "		//lunchbox adds minicrits
 			"4"							"58 ; 4.5"			// self dmg push force increased
-		}
-		"351"
-		{
-			"1"							"25 ; 0.5"
-			"2"							"207 ; 1.33"
-			"3"							"144 ; 1.0 "
-			"4"							"58 ; 4.5"
-		}
-		"1081"
-		{
-			"1"							"25 ; 0.5"
-			"2"							"207 ; 1.33"
-			"3"							"144 ; 1.0 "
-			"4"							"58 ; 4.5"
-		}
-		"880"	//Freedom staff
-		{
-			"1"							"2 ; 1.2"			//increase damage by 20%
-			"2"							"6 ; 0.65"			//faster firing speed by 35%
 		}
 		"593"	//Third Degree
 		{
@@ -722,16 +634,23 @@
 
 			"1"							"2 ; 1.35"			//increase damage by 35%
 		}
-		"1013"	//Ham Shank
-		{
-			"1"							"2 ; 1.25"			//increase damage by 25%
-			"2"							"16 ; 50"			//heal 50 hp on hit
-		}
 		"593"	//Backscratcher
 		{
 			"preserve_attributes"		"1"
 
 			"1"							"2 ; 1.85"			//increase damage by 85%
+		}
+
+		//All classes
+		"880"	//Freedom staff
+		{
+			"1"							"2 ; 1.2"			//increase damage by 20%
+			"2"							"6 ; 0.65"			//faster firing speed by 35%
+		}
+		"1013"	//Ham Shank
+		{
+			"1"							"2 ; 1.25"			//increase damage by 25%
+			"2"							"16 ; 50"			//heal 50 hp on hit
 		}
 	}
 }
