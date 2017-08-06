@@ -647,6 +647,14 @@
 			"1"							"2 ; 1.2"			//increase damage by 20%
 			"2"							"6 ; 0.65"			//faster firing speed by 35%
 		}
+		"1011"	//Tux hat/misc
+		{
+			"preserve_attributes"		"1"
+			"level"						"100"
+			"quality"					"5"					//Unusual quality
+
+			"1"							"134 ; 17"			//134 is the attribute for unusual effects. 19 is circling heart
+		}
 		"1013"	//Ham Shank
 		{
 			"1"							"2 ; 1.25"			//increase damage by 25%
