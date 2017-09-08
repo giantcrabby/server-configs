@@ -299,19 +299,7 @@
 			"4"							"37; 2.25"			//max ammo increased by 125%
 			"5"							"4 ; 2.5"			//clip size increased by 150%
 		}
-		"20"	//sticky launcher
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"2 ; 1.5"			//increase damage by 50%
-		}
-		"207"	//strange sticky launcher
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"2 ; 1.5"			//increase damage by 50%
-		}
-		"661"	//festive sticky launcher
+		"20 ; 207 ; 661"	//sticky launcher, strange sticky launcher, festive sticky launcher
 		{
 			"preserve_attributes"		"1"
 
@@ -580,16 +568,7 @@
 			"1"							"255 ; 2.5"			//increased 150% airblast pushback force
 			"2"							"257 ; 2.5"			//increased 150% airblast vertical pushback scale
 		}
-		"40"	//backburner
-		{
-			"1"							"2 ; 3.5"			//increase damage by 250%
-			"2"							"71 ; 2.5"			//more after burn damage
-			"3"							"170 ; 2.5"			//airblast cost increased
-			"4"							"129 ; -10"			//10 health drain per second
-			"5"							"236; 1"			//block healing
-			//"6"							"20 ; 1"		//crit vs burning players
-		}
-		"1146"	//festive backburner
+		"40 ; 1146"	//backburner
 		{
 			"1"							"2 ; 3.5"			//increase damage by 250%
 			"2"							"71 ; 2.5"			//more after burn damage
@@ -639,7 +618,7 @@
 			"level"						"100"
 			"quality"					"5"					//Unusual quality
 
-			"1"							"134 ; 17"			//134 is the attribute for unusual effects. 19 is circling heart
+			"1"							"134 ; 19"			//134 is the attribute for unusual effects. 19 is circling heart
 		}
 		"1013"	//Ham Shank
 		{
