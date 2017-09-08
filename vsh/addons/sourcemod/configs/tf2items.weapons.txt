@@ -3,15 +3,7 @@
 	"*"
 	{
 		//soldier
-		"18 ; 205 ; 513"	//stock rocket, strange, original
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"2 ; 1.8"			//damage bonus 80%
-			"2"							"207 ; 1.6"			//self blast damage increased by 60%
-			"3"							"97 ; 0.8"			//faster reload speed by 20%
-		}
-		"658"	//festive rocket launcher
+		"18 ; 205 ; 513 ; 658"	//stock rocket, strange, original, festive rocket launcher
 		{
 			"preserve_attributes"		"1"
 
@@ -184,15 +176,7 @@
 			"1"							"149 ; 8"			//bleeding for 8 seconds
 			"2"							"97 ; 0.8"			//faster reload speed by 20%
 		}
-		"45"	//force-a-nature
-		{
-			"1"							"6 ; 0.3"			//faster firing speed by 70%
-			"2"							"3 ; 0.34" 			//clip size penalty
-			"3"							"43 ; 1"			//scattergun single reload
-			"4"							"44 ; 1"			//scattergun knockback
-			"5"							"45 ; 1.8"			// 80% bullets per shot bonus
-		}
-		"1078"	//festive force a nature
+		"45 ; 1078"	//force-a-nature, festive force a nature
 		{
 			"1"							"6 ; 0.3"			//faster firing speed by 70%
 			"2"							"3 ; 0.34" 			//clip size penalty
@@ -459,14 +443,7 @@
 
 			"1"							"90 ; 0.6"			//faster charge rate by 40%
 		}
-		"14"	//sniper rifle
-		{
-			"preserve_attributes"		"1"
-
-			"1"							"390 ; 7.0"			//headshots deal increased 600% damage
-			"2"							"392 ; 0.25"		//decreased damage by 75% on bodyshot
-		}
-		"664"	//festive sniper rifle
+		"14 ; 664"	//sniper rifle, festive sniper rifle
 		{
 			"preserve_attributes"		"1"
 
