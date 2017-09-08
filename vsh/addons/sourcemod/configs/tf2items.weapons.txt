@@ -607,10 +607,18 @@
 		}
 
 		//All classes
+		"357"	//Half Zatoichi
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"6 ; 0.55"			//faster firing speed by 45%
+			"2"							"16 ; 100"			//heal 100 hp on hit
+			"3"							"204 ; 1"			//on miss, hit yourself
+		}
 		"880"	//Freedom staff
 		{
 			"1"							"2 ; 1.2"			//increase damage by 20%
-			"2"							"6 ; 0.65"			//faster firing speed by 35%
+			"2"							"6 ; 0.7"			//faster firing speed by 30%
 		}
 		"1011"	//Tux hat/misc
 		{
