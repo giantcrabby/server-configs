@@ -257,8 +257,9 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 2"				//damage bonus 100%
+			"1"							"2 ; 1.5"			//damage bonus 50%
 			"2"							"6 ; 0.75"			//faster firing speed by 25%
+			"3"							"264 ; 2.5"			//increased melee range by 150%
 		}
 		"307"	//Ullapool Caber
 		{
