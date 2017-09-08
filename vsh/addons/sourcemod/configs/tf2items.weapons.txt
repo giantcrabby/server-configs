@@ -436,22 +436,22 @@
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 1.5"			//increase damage by 50%
-			"2"							"6 ; 0.8"			//faster firing speed by 20%
+			"1"							"2 ; 1.8"			//increase damage by 50%
+			"2"							"6 ; 0.7"			//faster firing speed by 20%
 		}
 		"1005"	//festive huntsman
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 1.5"			//increase damage by 50%
-			"2"							"6 ; 0.8"			//faster firing speed by 20%
+			"1"							"2 ; 1.8"			//increase damage by 50%
+			"2"							"6 ; 0.7"			//faster firing speed by 20%
 		}
 		"1092"	//fortified compound
 		{
 			"preserve_attributes"		"1"
 
-			"1"							"2 ; 1.5"			//increase damage by 50%
-			"2"							"6 ; 0.8"			//faster firing speed by 20%
+			"1"							"2 ; 1.8"			//increase damage by 50%
+			"2"							"6 ; 0.7"			//faster firing speed by 20%
 		}
 		"753"	//hitman's heatmaker
 		{
@@ -472,6 +472,14 @@
 
 			"1"							"390 ; 7.0"			//headshots deal increased 600% damage
 			"2"							"392 ; 0.25"		//decreased damage by 75% on bodyshot
+		}
+		"230"	//sydney sleeper
+		{
+			"preserve_attributes"		"1"
+
+			"1"							"2 ; 1.4"		//dmg increased by 40%
+			"2"							"26 ; 100"		//additional 100 hp
+			"3"							"44 ; 1"
 		}
 		"526"	//machina
 		{
